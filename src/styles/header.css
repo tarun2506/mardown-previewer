@@ -1,0 +1,13 @@
+.header-component {
+  background-color: red;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+.header-component h1 {
+  font-size: 3rem;
+}
