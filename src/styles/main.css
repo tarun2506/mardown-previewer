@@ -9,7 +9,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.main h1 {
+#sub-heading {
   letter-spacing: 1px;
   border-bottom: 1px solid grey;
   margin-bottom: 10px;
@@ -42,4 +42,35 @@
 #preview {
   width: 100%;
   font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .input-container {
+    /* background-color: grey; */
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .main .output-container {
+    /* background-color: cyan; */
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .input-container textarea {
+    font-size: 1rem;
+    width: 90%;
+    height: 500px;
+    overflow-x: auto;
+  }
 }

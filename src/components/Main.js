@@ -28,11 +28,11 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
   return (
     <div className="main">
       <div className="input-container">
-        <h1>Editor</h1>
+        <h1 id="sub-heading">Editor</h1>
         <textarea id="editor" value={text} onChange={handleText}></textarea>
       </div>
       <div className="output-container">
-        <h1>Previewer</h1>
+        <h1 id="sub-heading">Previewer</h1>
         <div
           id="preview"
           dangerouslySetInnerHTML={{ __html: marked(text) }}

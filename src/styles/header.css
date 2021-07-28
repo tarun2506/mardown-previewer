@@ -10,3 +10,17 @@
 .header-component h1 {
   font-size: 3rem;
 }
+
+@media (max-width: 700px) {
+  .header-component {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+  }
+  .header-component h1 {
+    font-size: 1.6rem;
+  }
+}
