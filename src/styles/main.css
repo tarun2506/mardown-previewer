@@ -1,26 +1,45 @@
 .main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70vh;
+  align-items: flex-start;
+  height: auto;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 2rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.main h1 {
+  letter-spacing: 1px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.main .input-container textarea {
+  font-size: 2rem;
+  width: 500px;
+  height: 500px;
 }
 
 .main .input-container {
-  background-color: grey;
-  width: 50%;
+  /* background-color: grey; */
+  width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  margin: 0rem 0.5rem;
 }
+
 .main .output-container {
-  background-color: cyan;
-  width: 50%;
+  /* background-color: cyan; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem 0.5rem;
 }
 
 #preview {
   width: 100%;
+  font-size: 1.2rem;
 }
